@@ -36,3 +36,23 @@ Columns can be nested provided they add up to 12.
 
 Columns can be ordered differently using `pull` and `push` modifier classes.
 `push` class moves column to the right, and `pull` class moves column to the left.
+
+## Lesson 2-4 Glyphicons Icon Font
+
+Icons rendered as font rather than image (old bootstrap 2) for optimized display on all screen sizes and resolutions.
+
+Icons can be used on their own, for example to display a star:
+
+  ```html
+  <span class="glyphicon glyphicon-star"></span>
+  ```
+
+Icons can also be used with other components such as buttons:
+
+  ```html
+  <button type="button" class="btn btn-primary">
+    <span class="glyphicon glyphicon-user"></span>
+  </button>
+  ```
+
+Note that icons will change color depending on the control they're residing in.
