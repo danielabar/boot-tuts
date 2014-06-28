@@ -2,7 +2,7 @@
 
 Learning Bootstrap with Tuts Plus
 
-## Lesson 2-3 Grid System
+## Lesson 2.3 Grid System
 
 ### Classes
 
@@ -37,7 +37,7 @@ Columns can be nested provided they add up to 12.
 Columns can be ordered differently using `pull` and `push` modifier classes.
 `push` class moves column to the right, and `pull` class moves column to the left.
 
-## Lesson 2-4 Glyphicons Icon Font
+## Lesson 2.4 Glyphicons Icon Font
 
 Icons rendered as font rather than image (old bootstrap 2) for optimized display on all screen sizes and resolutions.
 
@@ -56,3 +56,15 @@ Icons can also be used with other components such as buttons:
   ```
 
 Note that icons will change color depending on the control they're residing in.
+
+## Lesson 2.5 List Group
+
+List groups are super-charged list items.
+
+Can also add badges, will get pushed to the right.
+
+Can also add heading to each list item.
+
+## Lesson 2.6 Panel
+
+Simple bordered box containing some content.

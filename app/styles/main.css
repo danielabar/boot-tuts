@@ -1,5 +1,5 @@
-#main-content a:visited:before {
-   content:  "\2713 ";
+header.jumbotron {
+  background: #DCD6EE;
 }
 
 .browsehappy {
