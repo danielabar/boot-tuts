@@ -68,3 +68,9 @@ Can also add heading to each list item.
 ## Lesson 2.6 Panel
 
 Simple bordered box containing some content.
+
+Can have header, footer, and contain list groups and tables.
+
+Can also have context (primary, info, etc.)
+
+## Lesson 2.7 Navbar and Modals
