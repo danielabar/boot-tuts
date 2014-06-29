@@ -2,19 +2,27 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>Bootstrap 3 Essentials with Tuts Plus</title>
+        <title>Lesson 3.1 Demo- Navbar and Main Banner</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
-        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
+        <!-- <link rel="stylesheet" href="styles/main.css"> -->
         <!-- endbuild -->
+
+        <!-- Breathing room between fixed navbar and content -->
+        <style>
+          body {
+            padding-top: 70px;
+          }
+        </style>
+
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="../bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
@@ -25,35 +33,66 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+        <!-- Navbar -->
+        <header class="navbar navbar-inverse navbar-fixed-top" role-"banner">
+          <div class="container">
+            <div class="navbar-header">
+              <!-- Make the navbar responsive by providing a toggle button -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-contents">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="http://tutsplus.com" class="navbar-brand">Tuts+</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-contents">
+              <ul class="nav navbar-nav" role="navigation">
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">eBooks</a></li>
+                <li><a href="#">Guides</a></li>
+                <li><a href="#">Source Files</a></li>
+                <li><a href="#">Tutorial Archive</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li>
+                  <button type="button" class="btn btn-warning navbar-btn btn-sm">Take the Tour</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header><!--//navbar-->
 
+        <!-- Main Content -->
         <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h3 class="text-muted">boot tuts</h3>
-            </div><!--//header-->
 
-            <div id="main-content" class="row marketing">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10">
-                  <ul class="list-group">
-                    <a href="lesson2-3.html" class="list-group-item">Lesson 2.3 Grid System</a>
-                    <a href="lesson2-4.html" class="list-group-item">Lesson 2.4 Glyphicons Icon Font</a>
-                    <a href="lesson2-5.html" class="list-group-item">Lesson 2.5 List Group</a>
-                    <a href="lesson2-6.html" class="list-group-item">Lesson 2.6 Panel</a>
-                    <a href="lesson2-7.html" class="list-group-item">Lesson 2.7 Navbar and Modals</a>
-                    <a href="lesson2-8.html" class="list-group-item">Lesson 2.8 Removed Components</a>
-                    <a href="try-typeahead.html" class="list-group-item">Typeahead</a>
-                    <a href="lesson3-1.html" class="list-group-item">Lesson 3.1 Demo - Navbar and Main Banner</a>
-                  </ul>
-                </div><!--//col-lg-10-->
-                <div class="col-lg-1"></div>
-            </div><!--//row marketing-->
+          <!-- Banner (use section tag for semantic purposes) -->
+          <section>
+            <div class="well well-lg text-center">
+              <h1>A huge library of courses and eBooks to help you learn.</h1>
+
+              <ul class="list-unstyled">
+                <li>
+                  <h3><a href="#">Web Development</a></h3>
+                </li>
+                <li>
+                  <h3><a href="#">Graphic Design</a></h3>
+                </li>
+                <li>
+                  <h3><a href="#">Motion Graphics</a></h3>
+                </li>
+                <li>
+                  <h3>and more.</h3>
+                </li>
+              </ul>
+              <hr>
+              <a href="#" class="btn btn-warning btn-lg">Sign Up</a> or <a href="#">Take the Tour</a>
+            </div>
+          </section>
+
         </div><!--//container-->
-
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
