@@ -74,3 +74,9 @@ Can have header, footer, and contain list groups and tables.
 Can also have context (primary, info, etc.)
 
 ## Lesson 2.7 Navbar and Modals
+
+Navbar starts collapsed in mobile view, and becomes horizontal as viewport gets wider.
+
+Use classes `navbar-right` and `navbar-left` to align elements at left or right of navbar respectively
+(used to be `pull-right` and `pull-left` in bootstrap 2).
+

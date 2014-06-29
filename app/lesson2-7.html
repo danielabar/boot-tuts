@@ -42,6 +42,48 @@
                 <h1>Lesson 2.7 <small>navbar and modals</small></h1>
               </div>
 
+              <!-- Simple navbar with collapsible view -->
+              <div class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#test-navbar">
+                    <span class="sr-only">Toggle Navigation</span> <!-- screen reader only -->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a href="#" class="navbar-brand">My Awesome Brand</a>
+                </div><!--//navbr-header-->
+                <div class="collapse navbar-collapse" id="test-navbar">
+                  <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">danib</a></p>
+                </div>
+              </div>
+
+              <!-- Modal with a fade effect: Not displayed by default, must be triggerred -->
+              <div class="modal fade" id="modal-test">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">This is the modal title</h4>
+                    </div><!--modal-header-->
+
+                    <div class="modal-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias dicta soluta, laboriosam neque quia eveniet nemo temporibus qui et rem, architecto tempora illum! Iusto at, in ullam iste amet corporis.</p>
+                    </div><!--modal-body-->
+
+                    <div class="modal-footer">
+                      <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                      <button class="btn btn-primary" type="button">Save</button>
+                    </div><!--modal-footer-->
+
+                  </div><!--modal-content-->
+                </div><!--modal-dialog-->
+              </div><!--//modal-->
+
+              <!-- Button to trigger display of modal, data-target must point to ID of modal defined above -->
+              <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#modal-test">Open Sesame</button>
+
             </div><!--//col-lg-9-->
 
           </div><!--//row-->
