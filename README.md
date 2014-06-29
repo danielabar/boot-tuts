@@ -87,3 +87,11 @@ Modal is responsive and does not have a max height. As more content is added to 
 Accordian: Can achieve similar effect using collapse js plugin, together with panel component.
 
 Typeahead: Instead use [twitter typeahead](https://github.com/twitter/typeahead.js/)
+
+## Lesson 2.9 Customizer
+
+Bootstrap can be [customized](http://getbootstrap.com/customize/)
+
+Many LESS variables are exposed for customization.
+
+Media query breakpoint and layout/grid system can also be customized.
