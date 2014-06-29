@@ -96,7 +96,9 @@ Many LESS variables are exposed for customization.
 
 Media query breakpoint and layout/grid system can also be customized.
 
-## Browser Support
+Also try [bootstrap-generator-less](https://github.com/Thomas-Lebeau/generator-bootstrap-less) for yeoman scaffolded project setup with LESS compile process to fully customize bootstrap.
+
+## Lesson 2.10 Browser Support
 
 Good for all modern browsers.  Few issues on older IE.
 
