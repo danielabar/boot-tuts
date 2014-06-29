@@ -80,3 +80,10 @@ Navbar starts collapsed in mobile view, and becomes horizontal as viewport gets 
 Use classes `navbar-right` and `navbar-left` to align elements at left or right of navbar respectively
 (used to be `pull-right` and `pull-left` in bootstrap 2).
 
+Modal is responsive and does not have a max height. As more content is added to it, it will expand to fill the view port.
+
+## Lesson 2.8 Removed Components
+
+Accordian: Can achieve similar effect using collapse js plugin, together with panel component.
+
+Typeahead: Instead use [twitter typeahead](https://github.com/twitter/typeahead.js/)

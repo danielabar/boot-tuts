@@ -1,0 +1,158 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Lesson 2.8 Removed Components</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+
+          <header class="jumbotron">
+            <h1>Bootstap 3 Essentials</h1>
+          </header>
+
+          <div class="row">
+
+            <div class="col-lg-3"></div>
+
+            <div class="col-lg-9">
+
+              <div class="page-header">
+                <h1>Lesson 2.8 <small>Removed Components</small></h1>
+              </div>
+
+              <button class="btn btn-primary" data-toggle="collapse" data-target="#demo-collapse" type="button">
+                Toggle the content below
+              </button>
+
+              <!-- 'in' class states that content starts off visible -->
+              <div id="demo-collapse" class="collapse in">
+                <p>This is the content that will be toggled.</p>
+              </div>
+
+              <!-- Build an accordian using collapse and panel, data-parent of each child panel must point to panel-group ID -->
+              <div class="panel-group" id="accordian">
+
+                <!-- Panel 1 -->
+                <div class="panel panel-default">
+
+                  <!-- Panel Heading -->
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a href="#collapse-1" data-toggle="collapse" data-parent="#accordian">Toggle Group 1</a>
+                    </h4>
+                  </div>
+
+                  <!-- Panel Body -->
+                  <div id="collapse-1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, ex.</p>
+                    </div>
+                  </div>
+
+                </div><!--//Panel 1-->
+
+                <!-- Panel 2 -->
+                <div class="panel panel-default">
+
+                  <!-- Panel Heading -->
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a href="#collapse-2" data-toggle="collapse" data-parent="#accordian">Toggle Group 2</a>
+                    </h4>
+                  </div>
+
+                  <!-- Panel Body -->
+                  <div id="collapse-2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus culpa, amet aliquam, quae ea laudantium.</p>
+                    </div>
+                  </div>
+
+                </div><!--//Panel 2-->
+
+                <!-- Panel 3 -->
+                <div class="panel panel-default">
+
+                  <!-- Panel Heading -->
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <a href="#collapse-3" data-toggle="collapse" data-parent="#accordian">Toggle Group 3</a>
+                    </h4>
+                  </div>
+
+                  <!-- Panel Body -->
+                  <div id="collapse-3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus culpa, amet aliquam, quae ea laudantium.</p>
+                    </div>
+                  </div>
+
+                </div><!--//Panel 3-->
+
+              </div><!--//panel-group-->
+
+            </div><!--//col-lg-9-->
+
+          </div><!--//row-->
+
+        </div><!--//container-->
+
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="../bower_components/bootstrap/js/affix.js"></script>
+        <script src="../bower_components/bootstrap/js/alert.js"></script>
+        <script src="../bower_components/bootstrap/js/dropdown.js"></script>
+        <script src="../bower_components/bootstrap/js/tooltip.js"></script>
+        <script src="../bower_components/bootstrap/js/modal.js"></script>
+        <script src="../bower_components/bootstrap/js/transition.js"></script>
+        <script src="../bower_components/bootstrap/js/button.js"></script>
+        <script src="../bower_components/bootstrap/js/popover.js"></script>
+        <script src="../bower_components/bootstrap/js/carousel.js"></script>
+        <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
+        <script src="../bower_components/bootstrap/js/collapse.js"></script>
+        <script src="../bower_components/bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
