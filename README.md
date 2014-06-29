@@ -84,7 +84,7 @@ Modal is responsive and does not have a max height. As more content is added to 
 
 ## Lesson 2.8 Removed Components
 
-Accordian: Can achieve similar effect using collapse js plugin, together with panel component.
+Accordian: Can achieve similar effect using collapse.js plugin, together with panel component.
 
 Typeahead: Instead use [twitter typeahead](https://github.com/twitter/typeahead.js/)
 
@@ -95,3 +95,19 @@ Bootstrap can be [customized](http://getbootstrap.com/customize/)
 Many LESS variables are exposed for customization.
 
 Media query breakpoint and layout/grid system can also be customized.
+
+## Browser Support
+
+Good for all modern browsers.  Few issues on older IE.
+
+IE8 doesn't support border-radius, box-shadow, transform, transition, and placeholder.
+
+IE9 won't support transition and placeholder.
+
+Furthermore, IE8 doesn't support media queries, use a polyfill like [Respond.js](https://github.com/scottjehl/Respond)
+
+Ensure latest rendering mode is used for IE support by adding following meta tag:
+
+  ```html
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  ```
